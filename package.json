@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "md2html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuntatakemoto/md2html.git"
+  },
+  "keywords": [],
+  "author": "shuntatakemoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuntatakemoto/md2html/issues"
+  },
+  "homepage": "https://github.com/shuntatakemoto/md2html#readme",
+  "dependencies": {
+    "yargs": "^17.7.0"
+  }
+}
