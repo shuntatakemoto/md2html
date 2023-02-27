@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const path=require("path");
 const {marked}=require("marked");
 const yargs=require("yargs/yargs");
