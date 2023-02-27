@@ -17,11 +17,3 @@ if(argv.name){
 const markdownStr=readMarkdownFileSync(path.resolve(__dirname,argv.file));
 const html=marked(markdownStr);
 writeHtmlFileSync(path.resolve(__dirname,argv.out),html);
-
-if (argv.file){
-    console.log(argv.file);
-}else if (argv.name){
-    console.log(package.name);
-}else{
-    console.log("オプションはありません");
-}
