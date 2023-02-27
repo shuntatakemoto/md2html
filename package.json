@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/shuntatakemoto/md2html#readme",
   "dependencies": {
+    "marked": "^4.2.12",
     "yargs": "^17.7.0"
   }
 }
